@@ -1,4 +1,4 @@
-name: www.psdize.com
+name: www.psdize.app
 on:
   workflow_dispatch:
     inputs:
