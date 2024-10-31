@@ -27,7 +27,7 @@ jobs:
       id: base-url
       run: |
         if [ "${{ github.event.inputs.environment }}" = "production" ]; then
-          echo "::set-output name=url::https://poducts.psdize.com"
+          echo "::set-output name=url::https://products.psdize.com"
         else
           echo "::set-output name=url::https://products-qa.psdize.com"
         fi
