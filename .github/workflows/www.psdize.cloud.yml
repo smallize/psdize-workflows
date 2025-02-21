@@ -21,7 +21,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-          hugo-version: 'latest'
+          hugo-version: '0.136.0'
           extended: true
     - name: Build 
       run: hugo --config "configs/www.psdize.cloud.toml","configs/common.psdize.cloud.toml" -b "https://www.psdize.cloud" --cleanDestinationDir --minify --templateMetrics --templateMetricsHints --enableGitInfo
